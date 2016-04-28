@@ -1,0 +1,57 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:500,400,300,200,100);
+
+body {
+    font-family: 'Open Sans', 'Helvetica', sans-serif !important;
+    color: #000;
+}
+
+h1 {
+  font-size: 2.4em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.2em;
+}
+
+h4 {
+  font-size: 1.3em;
+}
+
+.shortcut-box {
+  float:left;
+  width:50%;
+  text-align:center;
+  padding-bottom: 20px;
+}
+
+.shortcut-box i {
+  margin-bottom: 10px;
+}
+
+.shortcut-box p {
+  margin: 10px 20%;
+}
+
+.shortcut-box a i {
+  color: black;
+}
+
+.fa-border {
+  border-color: black;
+  border-width: medium;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.7em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .shortcut-box p {
+    margin: 10px 5px;
+  }
+}

@@ -5,10 +5,12 @@
 <!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
   <head>
     <!--[if lte ie 8]><script type="text/javascript" src="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/fanstatic/vendor/:version:2016-04-22T17:08:50.41/html5.min.js"></script><![endif]-->
-<link rel="stylesheet" type="text/css" href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/fanstatic/vendor/:version:2016-04-22T17:08:50.41/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />
 <!--[if ie 7]><link rel="stylesheet" type="text/css" href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/fanstatic/vendor/:version:2016-04-22T17:08:50.41/font-awesome/css/font-awesome-ie7.min.css" /><![endif]-->
 <link rel="stylesheet" type="text/css" href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/fanstatic/vendor/:version:2016-04-22T17:08:50.41/select2/select2.css" />
 <link rel="stylesheet" type="text/css" href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/fanstatic/css/:version:2016-04-22T17:08:50.41/maroon.min.css" />
+
+<link rel="stylesheet" type="text/css" href="/homepage.css" />
 
     <meta charset="utf-8" />
       <meta name="generator" content="ckan 2.5.2" />
@@ -120,7 +122,11 @@
         <nav class="section navigation">
           <ul class="nav nav-pills">
 
-  <li><a href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/dataset">Datasets</a></li><li><a href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/organization">Organizations</a></li><li><a href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/group">Groups</a></li><li><a href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/showcase">Showcases</a></li><li><a href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/about">About</a></li>
+  <li><a href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/dataset">Datasets</a></li>
+  <li><a href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/organization">Organizations</a></li>
+  <li><a href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/group">Groups</a></li>
+  <li><a href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/showcase">Showcases</a></li>
+  <li><a href="//ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.com/about">About</a></li>
 
           </ul>
         </nav>
@@ -146,7 +152,7 @@ background-image:url(http://ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.co
   <div class="row" style="margin:10px;">
     <div class="col-md-8 col-md-offset-2" style="text-align:center;">
       <h1>Nepal Migration Data Portal</h1>
-      <h3>an open website for accurate information on Nepali migrants</h3>
+      <h3>An open website for accurate information on Nepali migrants</h3>
 
       <form class="module-content search-form" method="get" action="/dataset">
         <div class="search-input control-group search-giant">
@@ -157,43 +163,47 @@ background-image:url(http://ec2-52-79-84-159.ap-northeast-2.compute.amazonaws.co
     </div>
   </div>
 
-  <div class="row" style="margin:10px;background:#fff;">
+  <div class="row" style="margin:0 5%;background:none;">
     <div class="col-md-8 col-md-offset-2">
       <h2>How can I use the Migration Data Portal?</h2>
-      <div style="float:left;width:25%">
-        <h4>Researchers and Publishers</h4>
+      <div class="shortcut-box">
+        <h4>Researchers</h4>
+        <a href="/dataset"><i class="fa fa-database fa-5x fa-border" style="background-color: rgba(27, 169, 215, 0.5)" aria-hidden="true"></i></a>
         <p>Browse our current online datasets and publications.</p>
         <a href="/dataset" class="btn btn-primary">Explore</a>
-        <br/><br/>
       </div>
-      <div style="float:left;width:25%">
+      <div class="shortcut-box">
         <h4>Organizations</h4>
-        <p>Publish official and authoritative datasets.</p>
+        <a href="/dataset/new"><i class="fa fa-upload fa-5x fa-border" style="background-color: rgba(97, 202, 198, 0.5)" aria-hidden="true"></i></a>
+        <p>Publish official and authoritative datasets for others to access.</p>
         <a href="/dataset/new" class="btn btn-primary">Publish</a>
-        <br/><br/>
       </div>
-      <div style="float:left;width:25%">
+    </div>
+  </div>
+  <div class="row" style="margin:5%;background:none;">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="shortcut-box">
         <h4>Programmers</h4>
+        <a href="http://docs.ckan.org/en/latest/api/"><i class="fa fa-code fa-5x fa-border" style="background-color: rgba(101, 191, 101, 0.5)" aria-hidden="true"></i></a>
         <p>Interact directly with our data catalog and published data</p>
         <a href="http://docs.ckan.org/en/latest/api/" class="btn btn-primary">API Docs</a>
-        <br/><br/>
       </div>
-      <div style="float:left;width:25%">
+      <div class="shortcut-box">
         <h4>Showcase</h4>
-        <p>Coming soon: featured visualizations and listings</p>
+        <a href="/showcase"><i class="fa fa-bar-chart fa-5x fa-border" style="background-color: rgba(114, 127, 140, 0.5)" aria-hidden="true"></i></a>
+        <p>Visualisations, interactive tools, and more.</p>
         <a href="/showcase" class="btn btn-primary">Visualise</a>
-        <br/><br/>
       </div>
     </div>
   </div>
 
-  <div class="row" style="margin:10px;">
+  <!-- <div class="row" style="margin:10px;">
     <div class="col-md-8 col-md-offset-2" style="text-align:center;">
       <br/><br/><br/>
       DoFE + TAF
       <br/><br/><br/>
     </div>
-  </div>
+  </div> -->
 </div>
 
     <footer class="site-footer">
